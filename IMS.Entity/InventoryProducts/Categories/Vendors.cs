@@ -11,10 +11,9 @@
         public byte[] VendorImage { get; set; }
         public DateTime RegisterDate { get; set; }
 
-        //Outside
-        public string ThirdCategoryName { get; set; }
+        //public string ThirdCategoryName { get; set; }
 
-        public virtual ICollection<Brands> Brands { get; set; }
-        public virtual ThirdCategories ThirdCategory { get; set; }
+        //public virtual ICollection<Brands> Brands { get; set; }
+        //public virtual ThirdCategories ThirdCategory { get; set; }
     }
 }
