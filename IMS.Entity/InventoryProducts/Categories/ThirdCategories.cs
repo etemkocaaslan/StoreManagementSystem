@@ -8,10 +8,9 @@
         public string ThirdCategoryDescription { get; set; }
         public byte[] ThirdCategoryImage { get; set; }
 
-        //OutSide
-        public string SecondCategoryName { get; set; }
+        //public string SecondCategoryName { get; set; }
 
-        public virtual SecondCategories SecondCategory { get; set; }
-        public virtual ICollection<Vendors> Vendors { get; set; }
+        //public virtual SecondCategories SecondCategory { get; set; }
+        //public virtual ICollection<Vendors> Vendors { get; set; }
     }
 }
