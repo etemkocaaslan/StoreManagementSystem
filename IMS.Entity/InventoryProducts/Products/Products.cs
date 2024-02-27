@@ -18,13 +18,12 @@
         public double ProductWeight { get; set; }
         public int ProductUnitStock { get; set; }
 
-        //outside
-        public string BrandName { get; set; }
-        public string VendorName { get; set; }
-        public string ThirdCategoryName { get; set; }
-        public string SecondCategoryName { get; set; }
-        public string MainCategoryName { get; set; }
+        //public string BrandName { get; set; }
+        //public string VendorName { get; set; }
+        //public string ThirdCategoryName { get; set; }
+        //public string SecondCategoryName { get; set; }
+        //public string MainCategoryName { get; set; }
 
-        public virtual Brands Brand { get; set; }
+        //public virtual Brands Brand { get; set; }
     }
 }
