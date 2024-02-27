@@ -1,9 +1,4 @@
-﻿
-
-namespace IMS.Entity.InventoryProducts.User;
-
-using IMS.Entity.InventoryProducts.Orders;
-
+﻿namespace IMS.Entity.InventoryProducts;
 public class Users
 {
     public int Id { get; set; }
