@@ -11,6 +11,6 @@
         //public string MainCategoryName { get; set; }
 
         //public virtual MainCategories MainCategory { get; set; }
-        //public virtual ICollection<ThirdCategories> ThirdCategories { get; set; 
+        public virtual ICollection<ThirdCategories> ThirdCategories { get; set; }
     }
 }
