@@ -14,7 +14,7 @@
         public double ProductDiscountRate { get; set; }
         public double ProductSize { get; set; }
         public string ProductColor { get; set; }
-        
+
         public double ProductWeight { get; set; }
         public int ProductUnitStock { get; set; }
 
